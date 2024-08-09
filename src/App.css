@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 6, 82, 0.763);
+  
+}
+
+.container{
+width: 800px;
+height: 500px;
+padding: 10px;
+background-color: #fff;
+border-radius: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+display: flex;
+}
+
+.box{
+  width: 350px;
+  background-image: url(assets/bmi.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.data{
+  flex: 1;
+  padding: 15px;
+}
+h2{
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(36, 138, 175);
+}
+.input-container{
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+label{
+  display: block;
+  margin-bottom: 10px;
+  color: #888;
+
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+button{
+  background-color: rgb(42, 98, 228);
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none ;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover{
+  background-color: rgb(30, 67, 153);;
+}
+
+.result{
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid rgba(12, 107, 222, 0.5);
+  border-radius: 10px;
+}
+
+.result p{
+  font-size: 16px;
+  margin-top: 10px ;
+  padding-bottom: 10px;
+  color: #555;
+}
+
+.result p:nth-child(1){
+  font-weight: bold;
+  color: rgba(39, 112, 161, 0.723);
+}
+
+.error{
+  color: red;
+  margin-bottom: 10px;
+}
+
+.data button:nth-of-type(2){
+  background-color: red;
+  margin-left: 10px;
+ }
+
+.data button:nth-of-type(2):hover{
+  background-color: rgb(216, 19, 19);
+}
